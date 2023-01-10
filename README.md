@@ -8,14 +8,11 @@ sudo gpasswd -a $USER docker
 
 sudo reboot
 
-python3 -m venv venv
-. venv/bin/activate
+git clone https://github.com/roger437unix/flask-sqlite3.git
 
-pip install Flask
-pip install Flask-SQLAlchemy
+cd flask-sqlite3
 
-export FLASK_APP=app.py
-flask run
+source app/.venv/bin/activate
 
 
 ## Comandos para monitoramento do SQLite3
