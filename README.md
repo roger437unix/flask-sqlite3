@@ -2,7 +2,7 @@
 
 ## Testado em VM Debian GNU/Linux 11.6
 
-sudo apt install docker-compose sqlite3 git python3-venv
+sudo apt install docker-compose sqlite3 git python3-venv -y
 
 sudo gpasswd -a $USER docker
 
