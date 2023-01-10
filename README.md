@@ -32,12 +32,6 @@ sqlite> .mode box
 sqlite> .tables
 
 sqlite> SELECT * FROM todo;
-┌────┬─────────┬──────────┐
-│ id │  title  │ complete │
-├────┼─────────┼──────────┤
-│ 1  │ tux     │ 1        │
-│ 2  │ multics │ 1        │
-└────┴─────────┴──────────┘
 
 sqlite> .schema --indent
 
