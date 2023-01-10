@@ -6,6 +6,8 @@ sudo apt install docker-compose sqlite3 git python3-venv -y
 
 sudo gpasswd -a $USER docker
 
+sudo reboot
+
 python3 -m venv venv
 . venv/bin/activate
 
